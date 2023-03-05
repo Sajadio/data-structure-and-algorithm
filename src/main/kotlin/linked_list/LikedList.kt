@@ -1,5 +1,13 @@
 package linked_list
 
+
+
+/* Linked likes:
+       *    - Single linked list ✅
+       *    - Double linked list ...
+       *    - Circle linked list ...
+*/
+
 data class Node(val data: Any, var next: Node? = null)
 
 class LinkedList {
